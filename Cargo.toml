@@ -3,5 +3,12 @@ name = "read-human"
 version = "0.1.0"
 authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
 edition = "2018"
+license = "Apache-2.0/MIT"
+readme = "README.md"
+description = "Read things from a human on the command line."
+repository = "https://github.com/derekdreery/read-human"
 
 [dependencies]
+
+[dev-dependencies]
+error-gen = "0.1.0"
