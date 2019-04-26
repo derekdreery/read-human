@@ -34,3 +34,7 @@ fn main() -> Result<(), io::Error> {
     Ok(())
 }
 ```
+
+See [`examples/simple.rs`] for a slightly more involved example.
+
+[`examples/simple.rs`]: https://github.com/derekdreery/read-human/blob/master/examples/simple.rs
