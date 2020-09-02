@@ -147,6 +147,7 @@ pub fn read_choice(
             Ok(a) => {
                 if a < 1 {
                     println!("{} is not a valid option (too small)", a);
+                    continue;
                 }
                 let ans = a - 1;
                 if ans < options.len() {
